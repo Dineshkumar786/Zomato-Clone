@@ -77,8 +77,39 @@ body {
 	font-weight: 900;
 	line-height:2.24rem;
 }
+.hero_text:hover{
+	color: #ef3b51;
+}
 
+.Restaurant_Video_Player{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
 
+}
+
+.video_player{
+	margin-top: 10px;
+	width: 100%;
+	position: relative;
+}
+
+.zomatao_video{
+	width: 100%;
+}
+
+.video_footage_text{
+	margin-top: 2rem;
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.video_footage_text:hover{
+	color: #ef3b51;
+}
 
 @media (min-width:768px){
 	.navbar{
@@ -91,10 +122,22 @@ body {
 		align-items: center;
 
 	}
+	.zomatao_video{
+		width: 400px;
+		height: 300px;
+		margin-top: 4rem;	
+	}
+
+	.video_footage_text{
+		margin-top: 5rem;
+		font-size: 1.4rem;
+		width: 320px;
+		color: #000000;
+		font-weight: 500;
+		position: absolute;	
+		margin-left: 25rem;
+	}
 }
-
-
-
 
 @media (min-width:1024px){
 	.navbar_brand{
@@ -113,7 +156,20 @@ body {
 		float: right;
 		margin-right: 6rem;
 	}
+	.zomatao_video{
+		margin-top: 5rem;
+		width: 500px;
+		align-items: center;
+		margin-left: 7rem;
+	}
+	.video_footage_text{
+		width: 600px;
+		margin-left: 40rem;
+	}
 }
+
+
+
 
 
 
