@@ -184,6 +184,92 @@ strong{
 	color: black;
 }
 
+.restaurant_list_container{
+	margin-top: 3rem;
+}
+
+.restaurant_list_text{
+	margin: 1rem 0;
+}
+
+.text-xll{
+	font-size: 1.8rem;
+    line-height: 2rem;
+    color: #1d3557;
+    font-weight: 900;
+}
+
+.restaurant_list_row1{
+	display: flex;
+	justify-content: baseline;
+}
+
+.restaurant1, .restaurant3{
+	width: 150px;
+	height: 90px;
+	border-radius: 4px;
+	margin: 0 5px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+	            0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.restaurant_list_row2{
+	display: flex;
+	margin-top: 10px;
+	align-items: flex-start;
+	flex-direction: row-reverse;
+}
+
+.restaurant2, .restaurant4{
+	border-radius: 4px;
+    margin: 0 5px;
+    width: 200px;
+    height: 100px;
+}
+
+.restaurant_text{
+	margin-top: 2.5rem;
+}
+
+.updated_text{
+	font-size: 1.9rem;
+	color: #1d3557;
+}
+
+.restaurant_subscribe{
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	
+}
+
+.email_input{
+	border: 1px solid #ee89a0;
+	background-color: #fcedf0;
+	color: #1d3557;
+	font-weight: 700;
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+.btn_primary{
+	margin: 15px;
+	padding: 0.7rem 1rem;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 600;
+	transition: 0.5s;
+	background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 4px;
+	border-style: none;
+	display: block;
+	background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+	
+
+}
+
 @media (min-width:768px){
 	.navbar{
 		justify-content: space-between;
@@ -237,6 +323,25 @@ strong{
 		width: 40%;
 		margin-left: 12rem;
 	}
+
+	.restaurant_list_container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.restaurant_list_row1{
+		justify-content: center;
+
+	}
+
+	.restaurant_list_row2{
+		margin-top: 6px;
+		align-items: flex-start;
+        justify-content: center
+
+	}
+
 }
 
 @media (min-width:1024px){
@@ -279,14 +384,29 @@ strong{
 		width: 100%;
 		margin-bottom: 0.7rem;
 	}
+	.restaurant_list_text{
+		padding: 4rem;
+	}
+	.text-xll{
+		font-size: 3.5rem;
+		line-height: 1;
+		letter-spacing: 1px;
+
+	}
+	.restaurant1, .restaurant3{
+		width: 250px;
+		height: 180px;
+	}
+	.restaurant2, .restaurant4{
+		width: 300px;
+		height: 250px;
+	}
+
+	#res1{
+		margin-top: 4rem;
+	}
+	.restaurant_list_image_container{
+		margin-right: 7rem;
+	}
+
 }
-
-
-
-
-
-
-
-
-
-
